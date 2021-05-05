@@ -1,0 +1,8 @@
+{
+  "type": "record",  "name": "InbuiltLogicalTypeNotNullFieldRecord",
+  "fields": [
+    {
+      "name": "timestamp",
+      "type": { "type": "long", "logicalType": "timestamp-millis" }
+    }]
+}

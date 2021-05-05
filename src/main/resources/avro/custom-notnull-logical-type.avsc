@@ -1,0 +1,8 @@
+{
+  "type": "record",  "name": "CustomLogicalTypeNotNullFieldRecord",
+  "fields": [
+    {
+      "name": "zdt",
+      "type": { "type": "string", "logicalType": "zoned-date-time" }
+    }]
+}

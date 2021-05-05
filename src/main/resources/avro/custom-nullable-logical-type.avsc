@@ -1,0 +1,8 @@
+{
+  "type": "record",  "name": "CustomLogicalTypeNullableFieldRecord",
+  "fields": [
+    {
+      "name": "nullableZdt",
+      "type": [ "null", { "type": "string", "logicalType": "zoned-date-time" } ]
+    }]
+}

@@ -1,0 +1,8 @@
+{
+  "type": "record",  "name": "InbuiltLogicalTypeNullableFieldRecord",
+  "fields": [
+    {
+      "name": "nullableTimestamp",
+      "type": [ "null", { "type": "long", "logicalType": "timestamp-millis" } ]
+    }]
+}
