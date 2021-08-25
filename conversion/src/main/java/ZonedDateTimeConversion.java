@@ -10,6 +10,10 @@ public class ZonedDateTimeConversion extends Conversion<ZonedDateTime> {
 
   public static final LogicalType ZONED_DATE_TIME_TYPE = new LogicalType("zoned-date-time");
 
+  static {
+    LogicalTypes.register(ZONED_DATE_TIME_TYPE.getName(), new TypeFactory());
+  }
+
   @Override
   public Class<ZonedDateTime> getConvertedType() {
     return ZonedDateTime.class;
